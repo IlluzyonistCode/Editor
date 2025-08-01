@@ -1,0 +1,4 @@
+colorama
+moviepy
+numpy
+PIL
