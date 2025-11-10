@@ -18,21 +18,21 @@ class VersusConfig:
     BITRATE = '3000k'
     MUSIC_PATH = 'versus/music.mp3'
     CHARACTER1_DATA = {
-        'name': 'Not Alone',
-        'custom_text': 'Soothing self-made messenger',
+        'name': '',
+        'custom_text': '',
         'files': {
-            'intro': 'versus/not-alone-intro.mp4',
-            'main': 'versus/not-alone.jpg',
-            'win': 'versus/connect-me-win.mp4'
+            'intro': '',
+            'main': '',
+            'win': '4'
         }
     }
     CHARACTER2_DATA = {
-        'name': 'ConnectMe',
-        'custom_text': 'Vibrant social network from HiSphere',
+        'name': '',
+        'custom_text': '',
         'files': {
-            'intro': 'versus/connect-me-intro.mp4',
-            'main': 'versus/connect-me.jpg',
-            'win': 'versus/connect-me-win.mp4'
+            'intro': '',
+            'main': '',
+            'win': ''
         }
     }
     CHARACTER_STATS = {
@@ -53,20 +53,11 @@ class SlideshowConfig:
     MAX_IMG_DURATION = 2
     MAX_VIDEO_DURATION = 90
     MAX_IMAGES = 100
-    INTRO_TEXT = 'POV: You are a God'
+    INTRO_TEXT = ''
     MUSIC_PATH = 'slideshow/music.mp3'
     OUTPUT_VIDEO_PATH = 'slideshow/output.mp4'
     IMAGE_DIR = 'slideshow'
     CAPTIONS = [
-        'You\'re absolutely stunning',
-        'Your smile lights up the world',
-        'You\'re one of a kind',
-        'Radiant beauty inside and out',
-        'You\'re simply breathtaking',
-        'Pure perfection',
-        'Angel on Earth',
-        'Absolutely gorgeous',
-        'You\'re incredible'
     ]
     COLOR_SCHEMES = [
         {

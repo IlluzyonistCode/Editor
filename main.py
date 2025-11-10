@@ -481,5 +481,5 @@ def generate_slideshow(config=SlideshowConfig):
 
 
 configure_imagemagick()
-# generate_1v1_comparison()
+generate_1v1_comparison()
 generate_slideshow()
